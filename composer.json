@@ -1,0 +1,33 @@
+{
+  "name":"kirsten-roschanski/contao-extended-core-dca",
+  "description":"Extended the Contao Core DCA",
+  "keywords":["contao", "dca", "helper"],
+  "type":"contao-module",
+  "homepage":"",
+  "license":"LGPL-3.0+",
+  "authors":[
+    {
+      "name":"Kirsten Roschanski",
+      "email":"git@kirsten-roschanski.de",
+      "homepage":"http://kirsten-roschanski.de",
+      "role":"Developer"
+    }
+  ],
+  "support":{
+    "issues":"https://github.com/kirsten-roschanski/contao-extended-dca/issues",
+    "wiki":"https://github.com/kirsten-roschanski/contao-extended-dca/wiki",
+    "irc":"irc://irc.freenode.org/contao.dev",
+    "source":"https://github.com/kirsten-roschanski/contao-extended-dca" 
+  },
+  "require":{
+    "php":">=5.3",
+    "contao/core":">=3.2,<3.6"
+  },
+  "extra":{
+    "contao": {
+      "sources":{
+        "src": "system/modules/kirsten-roschanski-extended-core-dca"
+      }
+    }
+  }
+}
